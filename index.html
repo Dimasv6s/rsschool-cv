@@ -6,9 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>CV task2</title>
+    <title>CV</title>
 </head>
 <body>
-    
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li class="menu_item"><a href="#contacts">Contacts</a></li>
+                <li class="menu_item"><a href="#about_me">About me</a></li>
+                <li class="menu_item"><a href="#experience">My experience</a></li>
+                <li class="menu_item"><a href="#project">My project</a></li>
+                <li class="menu_item"><a href="#example">Code example</a></li>
+                <li class="menu_item"><a href="#courses">Courses</a></li>
+                <li class="menu_item"><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div>
+            <section id="contacts">
+                <h2>Contacts:</h2>
+                <ul class="list">
+                    <li class="list_item"><a href="mailto: ramzicod4@gmail.com">Email</a></li>
+                    <li class="list_item">Discord: Dmitry_Mikhailov(@Dimasv6s)</li>
+                    <li class="list_item"><a href="https://github.com/Dimasv6s">Github</a></li>
+                </ul>
+            </section>
+            <section id="about_me">
+                <h2>About me:</h2>
+                <p>
+                    I am studying Frontend, I want to become a developer. Persevering, I strive to learn new things.
+                </p>
+            </section>
+            <section id="experience">
+                <h2>My experience:</h2>
+                <ul class="list">
+                    <li class="list_item">HTML</li>
+                    <li class="list_item">CSS</li>
+                    <li class="list_item">JavaScript</li>
+                    <li class="list_item">Git</li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>My project:</h2>
+                <ul class="list">
+                    <li class="list_item"><a href="https://github.com/Dimasv6s/rsschool-cv">CV</a></li>
+                </ul>
+            </section>
+            <section id="example">
+                <h2>Code example:</h2>
+                <pre>
+                    <code>
+            function booleanToString(b){
+                return b ? 'true' : 'false';
+            }
+                    </code>
+                </pre>
+            </section>
+            <section id="courses">
+                <h2>Courses:</h2>
+                <ul class="list">
+                    <li class="list_item">RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                    <li class="list_item">learnjavascript.ru</li>
+                    <li class="list_item">QA courses</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages:</h2>
+                <ul class="list">
+                    <li class="list_item">Russian - native</li>
+                    <li class="list_item">English - basic</li>
+                </ul>
+            </section>
+        </div>
+        <div class="name_block">
+            <img class="photo" src="./images/Photo.jpg" alt="my Photo">
+            <h1>Dmitry Mikhailov</h1>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <a href="https://github.com/Dimasv6s">Github</a>
+        <a href="https://rs.school/"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="RS-school"></a>
+        <p>2022</p>
+    </footer>
 </body>
 </html>
